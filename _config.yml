@@ -15,6 +15,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://purefan.dev" # the base hostname & protocol for your site
 twitter_username: purefan
 github_username:  purefan
+permalink: /:title.html
 
 # Build settings
 markdown: kramdown
