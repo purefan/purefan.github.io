@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Building Security</title>
+    <description>Articles about security, secure coding, data governance and other information security topics.
+</description>
+    <link>http://purefan.dev/</link>
+    <atom:link href="http://purefan.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 22 Jan 2016 13:15:29 +0100</pubDate>
+    <lastBuildDate>Fri, 22 Jan 2016 13:15:29 +0100</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>How to Brute Force with hydra</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://purefan.dev:4000/assets/img/keys-01.jpg&quot; alt=&quot;Keys&quot; class=&quot;float-left inline-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Have you ever been given a set of keys and forgot which one was the one that opened the door, then you started going through all of the keys one by one? Well, thats brute force right there. You try every single possibility because you know eventually, you will find the right key.&lt;/p&gt;
+
+&lt;p&gt;When it comes to information security and passwords, brute force is exactly the same, you try every possible combination of letters, numbers and symbols, in order to gain access. It is a failproof approach, by going through every single combination of letters, numbers and symbols you are sure to find &lt;em&gt;the&lt;/em&gt; password that you’re looking for. But the problem is exactly that, you are going through &lt;em&gt;every single combination&lt;/em&gt;, and that takes time… a lot of it.&lt;/p&gt;
+
+&lt;p&gt;Unless an attacker is specially motivated they will not want to wait days, weeks or months for a brute force to yield one result, imagine having a program puking random letters non-stop for hours… &lt;em&gt;you&lt;/em&gt; as an attacker are not doing anything but waiting… there’s no glory in this part. The thing is that, passwords more often than not, &lt;a href=&quot;http://gizmodo.com/the-25-most-popular-passwords-of-2014-were-all-doomed-1680596951&quot;&gt;resemble or use common words&lt;/a&gt;, passwords look like “monkey”, or “trustno1”, and this &lt;em&gt;human vulnerability&lt;/em&gt; of using common words is what makes a brute force attack easier to carry out, because then attackers dont need to try for inhuman passwords, they can mix common words with salt and pepper and come up with a very decent list of possible passwords, so instead of trying for “AAAAAA” and “AAAAAB” in dumb sequence, they can try for “m4ster”, “St4rw4rs!”, “passw0rd!” (By the way, if any of your passwords look like these 3 let me just say they are not bullet proof).&lt;/p&gt;
+
+&lt;p&gt;The list of possible passwords may still be in the thousands, but that is nothing compared to the trillions of &lt;em&gt;inhuman&lt;/em&gt; options, still being safe is easier than you may think, dont try to come up with a super complex password that you wont remember, use a password manager instead (Im not going to endorse any but do a &lt;a href=&quot;http://lmgtfy.com/?q=password+manager&quot;&gt;google search&lt;/a&gt; and it will give you a gazillion results), some are free, some have add-ons (like sharing an account with a mobile device) and these companies live off security, so they try their hardest to stay safe, their entire business depends on it… now thats a lot of effort to keep your passwords safe isn’t it?&lt;/p&gt;
+
+&lt;p&gt;Hello If you’re interested in learning more about brute force attacks you should read my other article &lt;a href=&quot;/infosec/penetration-testing/hydra/offensive-security/brute-force/2016/01/21/how-to-brute-force-with-hydra.html&quot;&gt;How to run a brute force attack with hydra&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 21 Jan 2016 19:01:09 +0100</pubDate>
+        <link>http://purefan.dev/infosec/penetration-testing/hydra/offensive-security/brute-force/2016/01/21/how-to-brute-force-with-hydra.html</link>
+        <guid isPermaLink="true">http://purefan.dev/infosec/penetration-testing/hydra/offensive-security/brute-force/2016/01/21/how-to-brute-force-with-hydra.html</guid>
+        
+        
+        <category>infosec</category>
+        
+        <category>penetration-testing</category>
+        
+        <category>hydra</category>
+        
+        <category>offensive-security</category>
+        
+        <category>brute-force</category>
+        
+      </item>
+    
+      <item>
+        <title>Brute Forcing for civilians - A soft intro</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://purefan.dev:4000/assets/img/keys-01.jpg&quot; alt=&quot;Keys&quot; class=&quot;float-left inline-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Have you ever been given a set of keys and forgot which one was the one that opened the door, then you started going through all of the keys one by one? Well, thats brute force right there. You try every single possibility because you know eventually, you will find the right key.&lt;/p&gt;
+
+&lt;p&gt;When it comes to information security and passwords, brute force is exactly the same, you try every possible combination of letters, numbers and symbols, in order to gain access. It is a failproof approach, by going through every single combination of letters, numbers and symbols you are sure to find &lt;em&gt;the&lt;/em&gt; password that you’re looking for. But the problem is exactly that, you are going through &lt;em&gt;every single combination&lt;/em&gt;, and that takes time… a lot of it.&lt;/p&gt;
+
+&lt;p&gt;Unless an attacker is specially motivated they will not want to wait days, weeks or months for a brute force to yield one result, imagine having a program puking random letters non-stop for hours… &lt;em&gt;you&lt;/em&gt; as an attacker are not doing anything but waiting… there’s no glory in this part. The thing is that, passwords more often than not, &lt;a href=&quot;http://gizmodo.com/the-25-most-popular-passwords-of-2014-were-all-doomed-1680596951&quot;&gt;resemble or use common words&lt;/a&gt;, passwords look like “monkey”, or “trustno1”, and this &lt;em&gt;human vulnerability&lt;/em&gt; of using common words is what makes a brute force attack easier to carry out, because then attackers dont need to try for inhuman passwords, they can mix common words with salt and pepper and come up with a very decent list of possible passwords, so instead of trying for “AAAAAA” and “AAAAAB” in dumb sequence, they can try for “m4ster”, “St4rw4rs!”, “passw0rd!” (By the way, if any of your passwords look like these 3 let me just say they are not bullet proof).&lt;/p&gt;
+
+&lt;p&gt;The list of possible passwords may still be in the thousands, but that is nothing compared to the trillions of &lt;em&gt;inhuman&lt;/em&gt; options, still being safe is easier than you may think, dont try to come up with a super complex password that you wont remember, use a password manager instead (Im not going to endorse any but do a &lt;a href=&quot;http://lmgtfy.com/?q=password+manager&quot;&gt;google search&lt;/a&gt; and it will give you a gazillion results), some are free, some have add-ons (like sharing an account with a mobile device) and these companies live off security, so they try their hardest to stay safe, their entire business depends on it… now thats a lot of effort to keep your passwords safe isn’t it?&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in learning more about brute force attacks you should read my other article [“How to run a brute force attack with hydra”][/infosec/penetration-testing/hydra/offensive-security/brute-force/2016/01/21/how-to-brute-force-with-hydra.html].&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 21 Jan 2016 19:01:09 +0100</pubDate>
+        <link>http://purefan.dev/infosec/penetration-testing/offensive-security/brute-force/2016/01/21/brute-force-for-civilians.html</link>
+        <guid isPermaLink="true">http://purefan.dev/infosec/penetration-testing/offensive-security/brute-force/2016/01/21/brute-force-for-civilians.html</guid>
+        
+        
+        <category>infosec</category>
+        
+        <category>penetration-testing</category>
+        
+        <category>offensive-security</category>
+        
+        <category>brute-force</category>
+        
+      </item>
+    
+  </channel>
+</rss>
