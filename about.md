@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<h3>Hello</h3>
+My name is Miguel Espinoza and Im glad you decided to visit.
+In this site I will share what I learn and live on topics related to security, I hope you find some of this useful.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+If you have any request for a topic or just want to drop me a message please the twitter link at the bottom, and if you're curious about my background, you can find my CV here.
