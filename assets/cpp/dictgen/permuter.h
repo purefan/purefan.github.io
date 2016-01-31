@@ -19,6 +19,7 @@ public:
 
 private:
     std::vector<std::string> sourceWords;
+    void uniqueVector(std::vector<std::string>&);
     bool fileExists(std::string);
     bool canWriteToFile(std::string);
     void setWord(std::string);

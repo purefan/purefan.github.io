@@ -82,9 +82,15 @@ std::vector<std::string> Permuter::fileToVector(std::string sourceFile) {
 std::vector<std::string> Permuter::mixCases(std::string original) {
     std::vector<std::string> mixedCases;
 
+    // There shouldn't be any duplicates but lets make sure
+    this->uniqueVector(mixedCases);
     return mixedCases;
 }
 
+void Permuter::uniqueVector(std::vector<std::string> &originalVector) {
+    sort( originalVector.begin(), originalVector.end() );
+    originalVector.erase( unique( originalVector.begin(), originalVector.end() ), originalVector.end() );
+}
 std::vector<std::string> Permuter::getPermutations(std::string original) {
     std::vector<std::string> permutations;
     std::vector<std::string> mixedCases = this->mixCases(original);
