@@ -81,6 +81,12 @@ std::vector<std::string> Permuter::fileToVector(std::string sourceFile) {
  */
 std::vector<std::string> Permuter::mixCases(std::string original) {
     std::vector<std::string> mixedCases;
+    // start with an upper case word
+    std::string upper = boost::to_upper_copy<std::string>(original);
+
+    mixedCases.push_back(upper);
+    mixedCases.push_back(original);
+    mixedCases.push_back(boost::to_lower_copy<std::string>(original));
 
     // There shouldn't be any duplicates but lets make sure
     this->uniqueVector(mixedCases);
