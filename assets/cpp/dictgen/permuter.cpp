@@ -93,6 +93,34 @@ std::vector<std::string> Permuter::mixCases(std::string original) {
     return mixedCases;
 }
 
+/**
+ * @brief Returns every combination of upper and lower case
+ * @details [long description]
+ *
+ * @param original [description]
+ * @return [Chess, CHess, cHess, cHEss,...]
+ */
+std::vector<std::string> Permuter::mixOfLowerCases(std::string original) {
+    std::vector<std::string> lowerCases;
+    std::cout << "mixOfLowerCases(" << original << ");";
+    // int boundChecker = 0;
+    //por cada posicion
+    //    convierta esa posicion a mayuscula --> Chess, cHess, chEss
+
+    std::string temp = original;
+    // for (std::string::iterator ite = original.begin(); ite < original.end(); ite++) {
+    for(std::string::size_type i = 0; i < original.size(); ++i) {
+        // do_things_with(str[i]);
+        // std::cout << boost::algorithm::to_lower(*ite) << ENDL;
+        std::cout << "Testing original[" << i << "] = " << original[i] << ENDL;
+    }
+
+    /*while(this->hasLowerCase(original) && boundChecker < 10) {
+        boundChecker++;
+        //original = original.
+    }*/
+    return lowerCases;
+}
 void Permuter::uniqueVector(std::vector<std::string> &originalVector) {
     sort( originalVector.begin(), originalVector.end() );
     originalVector.erase( unique( originalVector.begin(), originalVector.end() ), originalVector.end() );
