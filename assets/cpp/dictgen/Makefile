@@ -1,7 +1,7 @@
 # All purpose variables
 compiler=g++
 debugger=/usr/local/bin/gdb
-project_root = ~/Projects/Personal/purefan.github.io/assets/cpp/dictgen/
+project_root = /Users/purefan/Projects/Personal/purefan.github.io/assets/cpp/dictgen/
 #   Where to store the binaries
 target_folder=bin
 
@@ -24,8 +24,13 @@ flags=-std=c++11 -Wall -Werror -g
 # Compilation instructions
 all:
 	cd $(project_root)
+	if [ -a $(target_folder)/prod ] ; \
+	then \
+	     rm $(target_folder)/prod ; \
+	fi;
+
 	$(compiler) -Wall -std=c++0x main.cpp -o $(target_folder)/prod
-	./$(target_folder)/prod mest_populera_namn passwords
+	$(project_root)$(target_folder)/prod $(project_root)mest_popular_ord.txt $(project_root)$(target_folder)/out.txt
 test:
 	cd ~/Projects/Personal/nixmon/
 	$(compiler) \
