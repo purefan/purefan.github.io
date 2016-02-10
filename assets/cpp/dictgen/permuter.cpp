@@ -72,7 +72,9 @@ std::vector<std::string> Permuter::fileToVector(std::string sourceFile) {
     return originalWords;
 }
 
-
+bool Permuter::hasLowerCase(std::string toCheck) {
+    return std::any_of(toCheck.begin(), toCheck.end(), ::islower);
+}
 /**
  * @details Takes the original word and returns a vector of all combinations with different cases
  *

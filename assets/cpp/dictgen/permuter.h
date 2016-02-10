@@ -24,6 +24,7 @@ private:
     std::vector<std::string> mixOfLowerCases(std::string);
     bool canWriteToFile(std::string);
     void setWord(std::string);
+    bool hasLowerCase(std::string);
     int countLinesInFile(std::string);
     std::vector<std::string> fileToVector(std::string);
 };
