@@ -49,32 +49,5 @@ int main(int argc, char *argv[]) {
         myPermuter.run();
     }
 
-    /*
-    // Read the file
-    ifstream hFile(sourcePath);
-
-    if (hFile.is_open()) {
-        string line;
-        int lines_count = std::count(std::istreambuf_iterator<char>(hFile), std::istreambuf_iterator<char>(), '\n');
-        ofstream myfile;
-        myfile.open("dict.txt", ios::out);
-
-
-        while (hFile.good()) {
-            getline(hFile, line);
-            myPermuter.setWord(line);
-        }
-        hFile.close();
-    }
-    // Read each line
-    // Convert the word to lower case
-    // Add it to the outfile
-    // Convert one letter at a time to upper case
-    // Convert similar letters one at a time: O <-> 0, A <-> 4, I <-> 1
-    // Add 1 digit in every position
-    // Add 2 digits in every position
-
-    myfile << "Test \n";
-    myfile.close();*/
     return 0;
 }
