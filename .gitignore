@@ -4,3 +4,4 @@ _site
 /node_modules
 /apache_error.log
 /apache_access.log
+/run
