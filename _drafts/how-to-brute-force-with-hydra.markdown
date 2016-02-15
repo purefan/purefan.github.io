@@ -16,3 +16,4 @@ Hydra is a brute force tool for remote authentication, it allows to run a lot of
 Officially, its use is for legal purposes only, and that is what we abide to. The information contained in this website is only meant for legal purposes, if you are unsure of what you are doing is legal or not, ask the victim if they are ok with what you're doing.
 
 <h2><a name="how-to-install-hydra">How to install Hydra</a></h2>
+This depends on which Operating System you're using, on Debian based OSs you get it with `sudo apt-get install hydra`
