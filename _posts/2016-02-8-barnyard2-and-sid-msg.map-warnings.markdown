@@ -3,7 +3,8 @@ layout: post
 title:  "Barnyard2 and sid-msg.map warnings"
 date:   2016-02-08 11:01:09 +0100
 categories: infosec snort barnyard2 reporting
-shortdesc: Testing the test.
+excerpt: "Working with accentuated characters in c++"
+keywords: "c++, unicode, multibyte"
 ---
 
 

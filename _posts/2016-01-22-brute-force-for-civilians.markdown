@@ -3,8 +3,14 @@ layout: post
 title:  "Brute Forcing for civilians - A soft intro"
 date:   2016-01-21 19:01:09 +0100
 categories: infosec penetration-testing offensive-security brute-force
+excerpt: "Introduction to Hydra for brute force password guessing"
+keywords: "brute force, infosec, hydra"
 ---
-![Keys]({{ site.url }}:4000/assets/img/keys-01.jpg){: .float-left .inline-image}
+{% if jekyll.environment == "production" %}
+![Keys]({{ site.url }}/assets/img/keys-01.jpg){: .float-left .inline-image}
+{% else %}
+![Keys]({{ site.dev_url }}/assets/img/keys-01.jpg){: .float-left .inline-image}
+{% endif %}
 
 Have you ever been given a set of keys and forgot which one was the one that opened the door, then you started going through all of the keys one by one? Well, thats brute force right there. You try every single possibility because you know eventually, you will find the right key.
 

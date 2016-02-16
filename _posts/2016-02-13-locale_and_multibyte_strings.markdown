@@ -3,6 +3,8 @@ layout: post
 title:  "Locale and multibyte strings"
 date:   2016-02-13 19:01:09 +0100
 categories: programming
+excerpt: "Working with accentuated characters in c++"
+keywords: "c++, unicode, multibyte"
 ---
 {% if jekyll.environment == "production" %}
 ![Language](http://purefan.me/assets/img/language-01.png){: .float-left .inline-image}
