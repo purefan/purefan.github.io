@@ -5,7 +5,7 @@ date:   2016-02-13 19:01:09 +0100
 categories: programming
 ---
 {% if jekyll.environment == "production" %}
-![Language]({{ site.url }}/assets/img/language-01.png){: .float-left .inline-image}
+![Language](http://purefan.me/assets/img/language-01.png){: .float-left .inline-image}
 {% else %}
 ![Language]({{ site.dev_url }}/assets/img/language-01.png){: .float-left .inline-image}
 {% endif %}
