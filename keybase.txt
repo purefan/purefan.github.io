@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/purefan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://purefan.me
+  * I am purefan (https://keybase.io/purefan) on keybase.
+  * I have a public key ASAGHxbvAk3qB4QbuvMRa98GZ1iMh2xdOvmuZnd7vG_54Qo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120061f16ef024dea07841bbaf3116bdf0667588c876c5d3af9ae66777bbc6ff9e10a",
+            "host": "keybase.io",
+            "kid": "0120061f16ef024dea07841bbaf3116bdf0667588c876c5d3af9ae66777bbc6ff9e10a",
+            "uid": "074df0b97baabd0b51518ef64dd74619",
+            "username": "purefan"
+        },
+        "service": {
+            "hostname": "purefan.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1464867469,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1464867342,
+        "hash": "0ffa92e83f39e5890cbca52f8e1fbe41e63df40a12bc54b6b21a00d86387b0a573f662bc73a47dc122718e7ac75d6b9753ec4058d72bc642fcc157236571d917",
+        "seqno": 476067
+    },
+    "prev": "dd5a81a4c109e71dc65fbba1ab9e1076b11210133ead3d93560067cea7cfa758",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgBh8W7wJN6geEG7rzEWvfBmdYjIdsXTr5rmZ3e7xv+eEKp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMDYxZjE2ZWYwMjRkZWEwNzg0MWJiYWYzMTE2YmRmMDY2NzU4OGM4NzZjNWQzYWY5YWU2Njc3N2JiYzZmZjllMTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMDYxZjE2ZWYwMjRkZWEwNzg0MWJiYWYzMTE2YmRmMDY2NzU4OGM4NzZjNWQzYWY5YWU2Njc3N2JiYzZmZjllMTBhIiwidWlkIjoiMDc0ZGYwYjk3YmFhYmQwYjUxNTE4ZWY2NGRkNzQ2MTkiLCJ1c2VybmFtZSI6InB1cmVmYW4ifSwic2VydmljZSI6eyJob3N0bmFtZSI6InB1cmVmYW4ubWUiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNiJ9LCJjdGltZSI6MTQ2NDg2NzQ2OSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDY0ODY3MzQyLCJoYXNoIjoiMGZmYTkyZTgzZjM5ZTU4OTBjYmNhNTJmOGUxZmJlNDFlNjNkZjQwYTEyYmM1NGI2YjIxYTAwZDg2Mzg3YjBhNTczZjY2MmJjNzNhNDdkYzEyMjcxOGU3YWM3NWQ2Yjk3NTNlYzQwNThkNzJiYzY0MmZjYzE1NzIzNjU3MWQ5MTciLCJzZXFubyI6NDc2MDY3fSwicHJldiI6ImRkNWE4MWE0YzEwOWU3MWRjNjVmYmJhMWFiOWUxMDc2YjExMjEwMTMzZWFkM2Q5MzU2MDA2N2NlYTdjZmE3NTgiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAGWZm/zqDTBeYK/ojAROyUh/R012ABv77x4cKkutZc887TEFri3C99M6Q4Q5zzpCs9fzzcCj5792q5MGkDIR0JqHNpZ190eXBlIKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/purefan
+
+==================================================================
